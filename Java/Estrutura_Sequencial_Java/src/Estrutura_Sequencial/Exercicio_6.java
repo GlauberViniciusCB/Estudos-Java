@@ -1,3 +1,4 @@
+package Estrutura_Sequencial;
 /* 
  
 Fazer um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e 
