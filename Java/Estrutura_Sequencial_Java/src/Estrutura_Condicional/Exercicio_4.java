@@ -21,10 +21,14 @@ public class Exercicio_4 {
         if (inicio > fim) {
             resto = 24 - inicio;
             duracao = resto + fim;
+        }
+        else if(inicio == 0 && fim == 0 ){
+            duracao = 24; 
         } else {
             duracao = fim - inicio;
         }
 
-        System.out.println("O Jogo Durou " + duracao);
+        System.out.println("O Jogo Durou " + duracao + "Hora(s)");
+    
     }
 }
