@@ -18,10 +18,10 @@ public class Exercicio_7 {
 
         double coordernadaX, coordernadaY;
 
-        System.out.println("Informe A Coordenada X : ");
+        System.out.println("Informe A Coordenada X: ");
         coordernadaX = input.nextDouble();
 
-        System.out.println("Informe A Coordenada Y : ");
+        System.out.println("Informe A Coordenada Y: ");
         coordernadaY = input.nextDouble();
 
         if (coordernadaX == 0 && coordernadaY == 0) {
