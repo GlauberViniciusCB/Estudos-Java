@@ -22,41 +22,29 @@ public class Exercicio_8 {
     public static void main(String[] args) {
         Scanner input  = new Scanner(System.in);
 
-        double salario,total=0,descont8=0,descont18=0,descont28=0, aux;
+        double salario,totalImpost=0;
         
         System.out.println("Informe Seu Salário: ");
         salario = input.nextDouble();
 
-        aux = salario - 2000; 
-        
-        System.out.println(aux);
-
-        if(salario >= 0 && salario <= 2000.00 ){
-            System.out.println("Isento");  
+       if(salario > 4500){
+            totalImpost = totalImpost +(salario - 4500) * 0.28 ;
+            salario = 4500;
+       }
+       if(salario > 3000){
+        totalImpost = totalImpost + (salario - 3000) * 0.18;
+        salario = 3000;
         }
-        else{
-            if (salario >= 2000.01 || salario<= 3000)  {
-                aux = salario - 2000;
-                descont8 = aux * 0.08;
-                aux = 0; 
-                System.out.println("Total 8: " + descont8);
-            }
-            if (salario >= 3000.01 || salario <= 4500) {
-                aux = salario - 3000;
-                descont18 = aux * 0.18;
-                aux = 0;
-                System.out.println("Total 18:  " + descont18);
-            }
-            if(salario > 4500.00){
-                aux = salario - 4500; 
-                descont28 = aux  *0.28;
-                System.out.println("total 28: " + descont28);
-            }
 
-        }
-            total = descont8 + descont18 + descont28;
+       if (salario > 2000) {
+            totalImpost = totalImpost + (salario - 2000) * 0.08;
+       }
 
-
-        System.out.println("R$ " + total);
+       if (totalImpost == 0 ) {
+            System.out.println("Isento");
+       }
+       else{
+        System.out.println("R$ " + totalImpost );
+       }
     }
-}
+}   
