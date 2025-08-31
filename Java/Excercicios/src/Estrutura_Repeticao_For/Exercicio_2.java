@@ -24,7 +24,7 @@ public class Exercicio_2 {
                 contIn = contIn + 1; 
             }
             else{
-                contOut = contOut +1 ; 
+                contOut = contOut + 1 ; 
             }
         }
         System.out.println(contIn+" In");
