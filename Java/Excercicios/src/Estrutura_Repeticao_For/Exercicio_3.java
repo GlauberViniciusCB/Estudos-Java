@@ -25,15 +25,12 @@ public class Exercicio_3 {
                 num = input.nextDouble();
                 if (y == 1) {
                     total = num * 2;
-                    System.out.println(total);
+                    
                 } else if (y == 2) {
                     total = num * 3;
-                    System.out.println(total);
                 } else {
                     total = num * 5;
-                    System.out.println(total);
                 }
-                System.out.println(total);
                 num = 0;
                 mediaPond = mediaPond +  total;
             }
