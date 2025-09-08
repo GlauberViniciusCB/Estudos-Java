@@ -11,18 +11,13 @@ public class Exercicio_5_Por_Fazer {
     public static void main(String[] args) {
         Scanner  input = new Scanner(System.in);
         
-        int num,fat=0,aux;
+        int num,fat=0;
 
-        System.out.println("Qual Número Deseja Calcular O Fatorial: ");
+        System.out.println("Informe O Número Para Calcular O Fatorial: ");
         num = input.nextInt();
 
-        for (int i = num ;i >= 0; i--) {
-            
-            aux = num * (i-1);
-            fat = fat + aux;
-            
-            System.out.println(fat);
+        for (int i = num; i < args.length; i++) {
+            System.out.println();
         }
-
     }
 }

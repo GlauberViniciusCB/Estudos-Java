@@ -10,7 +10,7 @@ public class Exercicio_7 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int num;
-        int pot= 1;
+        int pot= 1;  
         
         System.out.println("Digite Um Número: ");
         num = input.nextInt();
