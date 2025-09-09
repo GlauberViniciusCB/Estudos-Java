@@ -7,7 +7,7 @@ import java.util.Scanner;
 Lembrando que, por definição, fatorial de 0 é 1. 
 */
 
-public class Exercicio_5_Por_Fazer {
+public class Exercicio_5 {
     public static void main(String[] args) {
         Scanner  input = new Scanner(System.in);
         
