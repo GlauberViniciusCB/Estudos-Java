@@ -2,7 +2,7 @@ package Orientacao_Objetos.Produto;
 
 import java.util.Scanner;
 
-public class Produto_Main {
+public class produto_Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
