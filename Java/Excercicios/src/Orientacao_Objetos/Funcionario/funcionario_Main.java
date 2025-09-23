@@ -25,5 +25,6 @@ public class funcionario_Main {
         funcionario.incrementaSalario(porcentagemDeAumento);
 
         System.out.print("Atualizando Dados: " + funcionario);
+        input.close();
     }
 }
