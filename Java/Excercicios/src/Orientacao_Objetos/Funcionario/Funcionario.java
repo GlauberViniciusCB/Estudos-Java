@@ -25,15 +25,12 @@ public class Funcionario {
     }
 
     public double salarioLiquido(){ 
-        this.salarioBruto = this.salarioBruto - this.taxaImposto;    
-        return this.salarioBruto;
+        return this.salarioBruto - taxaImposto;
     }
 
     public void incrementaSalario(double porcentagem ){
-        double novoSalario;
-        novoSalario =  (this.salarioBruto * porcentagem); 
-        System.out.println(novoSalario);
-        this.salarioBruto = salarioLiquido() + novoSalario;
+        double novoSalario = (this.salarioBruto *porcentagem)/100;
+        this.salarioBruto = this.salarioBruto + novoSalario;
     }
 
     @Override
