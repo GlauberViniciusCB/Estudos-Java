@@ -13,7 +13,7 @@ public class dolar_Main {
         double valorDesejavelAComprar = input.nextDouble();
 
         double valorFinal = Dolar.calcularValoPagar(valorDesejavelAComprar,valorDeContacaoDolar);
-         valorFinal = (valorFinal + (valorFinal * Dolar.TAXA_DOLAR));
+        valorFinal = (valorFinal + (valorFinal * Dolar.TAXA_DOLAR));
         System.out.println("O Valor A Ser Pago É : R$ "  + String.format("%.2f", valorFinal));
     }
 }
