@@ -1,4 +1,4 @@
-package Vetores.Exercicio_3;
+package Vetores.Exercicio_3.entities;
 
 public class Pessoa {
     private String nome;
