@@ -31,6 +31,6 @@ public class Exercicio_4 {
         }
 
         System.out.println("\nQuantidade De Números Par: " + contPar); 
-        input.close();
+        
     }
 }
