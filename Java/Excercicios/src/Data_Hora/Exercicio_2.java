@@ -16,8 +16,5 @@ public class Exercicio_2 {
         System.out.println("Data E Hora Global: " + dataHoraAtualGlobal);
         System.out.println("Data E Hora Instante Global: " +  instanteDataEHoraGlobal);
         System.out.println("Mostre O Horario Equivalente A Hora Zulu Em Londres: " + instanteDataEHoraGlobalAtual);
-
-        
-
     }
 }
