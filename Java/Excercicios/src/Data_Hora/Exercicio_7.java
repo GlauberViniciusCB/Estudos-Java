@@ -28,7 +28,7 @@ public class Exercicio_7 {
 
         System.out.println("Instanciando Objetos Com Instant: ");
         System.out.println("Próxima Semana: " + insProximaSemana);
-        System.out.println("Semana Anterior " + instAnteriorSemana);
+        System.out.println("Semana Anterior: " + instAnteriorSemana);
 
 
         /*Calculando Duração */ 

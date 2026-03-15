@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class funcionario_Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Funcionario funcionario = new Funcionario();
+        Funcionario funcionario = new Funcionario(null, 0, 0);
 
         System.out.println("Informe O Nome Do Funcionário: ");
         String nome = input.nextLine();

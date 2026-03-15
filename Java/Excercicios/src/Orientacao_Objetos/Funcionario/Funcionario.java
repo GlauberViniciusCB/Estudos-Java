@@ -5,12 +5,19 @@ public class Funcionario {
     private double salarioBruto;
     private double taxaImposto;
 
+     public Funcionario(String nome, double salarioBruto, double taxaImposto) {
+        this.nome = nome;
+        this.salarioBruto = salarioBruto;
+        this.taxaImposto = taxaImposto;
+    }
+
     public String getNome() {
         return nome;
     }
     public void setNome(String nome) {
         this.nome = nome;
     }
+   
     public double getSalarioBruto() {
         return salarioBruto;
     }
