@@ -2,9 +2,9 @@ package Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exercicio_1.Entities;
 
 
 public class Empregado {
-    protected String nome;
-    protected Integer horas;
-    protected Double valorPorHora;
+    private String nome;
+    private Integer horas;
+    private Double valorPorHora;
 
 
     public Empregado(){

@@ -12,10 +12,21 @@ public class EmpregadoTerceirizado extends Empregado {
         this.despesaAdicional = despesaAdicional;
     }
 
-    
+    public Double getDespesaAdicional() {
+        return despesaAdicional;
+    }
+
+    public void setDespesaAdicional(Double despesaAdicional) {
+        this.despesaAdicional = despesaAdicional;
+    }
+
+ 
     @Override
     public Double pagamento() {
-        double totalPagamento = (horas * valorPorHora) + ((despesaAdicional * 110)/100);
+        double totalPagamento =  super.pagamento() + ((despesaAdicional * 110)/100);
         return totalPagamento;
     }
+
 }
+
+    
