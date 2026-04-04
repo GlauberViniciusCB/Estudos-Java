@@ -1,6 +1,5 @@
 package Enumeracao_E_Composicao.Pedido.Entities;
 
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
@@ -92,7 +91,5 @@ public class Pedido {
 
         return sb.toString();
     } 
-
-    
     
 }
