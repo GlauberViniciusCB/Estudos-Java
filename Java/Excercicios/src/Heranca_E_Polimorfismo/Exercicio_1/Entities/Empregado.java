@@ -1,4 +1,4 @@
-package Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exercicio_1.Entities;
+package Heranca_E_Polimorfismo.Exercicio_1.Entities;
 
 
 public class Empregado {

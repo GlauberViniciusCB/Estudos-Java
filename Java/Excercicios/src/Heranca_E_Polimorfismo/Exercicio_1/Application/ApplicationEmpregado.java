@@ -1,10 +1,10 @@
-package Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exercicio_1.Application;
+package Heranca_E_Polimorfismo.Exercicio_1.Application;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exercicio_1.Entities.Empregado;
-import Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exercicio_1.Entities.EmpregadoTerceirizado;
+import Heranca_E_Polimorfismo.Exercicio_1.Entities.EmpregadoTerceirizado;
+import Heranca_E_Polimorfismo.Exercicio_1.Entities.Empregado;
 
 public class ApplicationEmpregado {
     public static void main(String[] args) {
@@ -60,5 +60,7 @@ public class ApplicationEmpregado {
         for (Empregado empregado : listaEmpregados) {
            System.out.println( empregado.toString());
         }
+
+        input.close();
     }
 }

@@ -1,8 +1,8 @@
-package Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exemplo_1.Application;
+package Heranca_E_Polimorfismo.Exemplo_1.Application;
 
-import Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exemplo_1.Entities.Conta;
-import Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exemplo_1.Entities.ContaParaEmpresas;
-import Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exemplo_1.Entities.ContaPoupanca;
+import Heranca_E_Polimorfismo.Exemplo_1.Entities.Conta;
+import Heranca_E_Polimorfismo.Exemplo_1.Entities.ContaParaEmpresas;
+import Heranca_E_Polimorfismo.Exemplo_1.Entities.ContaPoupanca;
 
 public class Exemplo_1_Application {
     public static void main(String[] args) {
@@ -18,5 +18,6 @@ public class Exemplo_1_Application {
         Conta conta3 = new ContaParaEmpresas(1003, "Bob", 1000.0,500.0);
         conta3.sacar(200.0);
         System.out.println(conta3.getSaldo());
+
     }
 }

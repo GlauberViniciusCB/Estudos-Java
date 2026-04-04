@@ -54,5 +54,6 @@ public class ApplicationForma {
             for (Forma forma : listaFormas) {
                 System.out.println(String.format("%.2f", forma.area()));
             }
+            input.close();
     }
 }
