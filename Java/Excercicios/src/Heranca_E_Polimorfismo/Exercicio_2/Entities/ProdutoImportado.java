@@ -1,4 +1,4 @@
-package Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exercicio_2.Entities;
+package Heranca_E_Polimorfismo.Exercicio_2.Entities;
 
 public class ProdutoImportado extends Produto {
     private Double custoFrete;

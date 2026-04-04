@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
-
 import Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exercicio_2.Entities.Produto;
 import Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exercicio_2.Entities.ProdutoImportado;
 import Heranca_E_Polimorfismo.Exemplo_1.Exemplo_1.Exercicio_2.Entities.ProdutoUsado;
