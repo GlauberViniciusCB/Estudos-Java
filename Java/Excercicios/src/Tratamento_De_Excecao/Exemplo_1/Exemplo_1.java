@@ -19,5 +19,6 @@ public class Exemplo_1 {
         }
         System.out.println("Programa Finalizado!");
 
+        input.close();
     }
 }
