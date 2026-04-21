@@ -17,5 +17,6 @@ public class Exemplo_5 {
         System.out.println("Caminho Do Arquivo: " + caminho.getPath());
         System.out.println("Caminho Absoluto Do Arquivo: " + caminho.getAbsolutePath() );
 
+        input.close();
     }
 }
