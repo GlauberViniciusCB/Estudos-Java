@@ -29,5 +29,7 @@ public class Exemplo_4 {
 
         Boolean sucesso = new File(strCaminho + "\\NovaPastaCriadaPorMim").mkdir();
         System.out.println("Diretorio Criado Com Sucesso ?  " + sucesso);
+        
+        input.close();;
     }
 }
