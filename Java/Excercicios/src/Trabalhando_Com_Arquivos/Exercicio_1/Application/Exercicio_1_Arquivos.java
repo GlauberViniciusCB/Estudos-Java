@@ -21,7 +21,7 @@ public class Exercicio_1_Arquivos {
 
         String caminho = "C:\\Users\\Glauber Vinicius\\Documents\\Java\\Java\\Excercicios\\src\\Trabalhando_Com_Arquivos\\Exercicio_1\\produtos.csv";
         String caminhoOut = "C:\\Users\\Glauber Vinicius\\Documents\\Java\\Java\\Excercicios\\src\\Trabalhando_Com_Arquivos\\Exercicio_1";
-
+        String diretoriFinal = "C:\\Users\\Glauber Vinicius\\Documents\\Java\\Java\\Excercicios\\src\\Trabalhando_Com_Arquivos\\Exercicio_1\\Out\\";
         System.out.print("Quantos Produtos Deseja Cadastrar: ");
         int quantDeProdutos  = input.nextInt();
 
@@ -72,9 +72,11 @@ public class Exercicio_1_Arquivos {
             e.printStackTrace();
         }
 
-        new File(caminhoOut + "\\Out").mkdir();
+       new File(caminhoOut + "\\Out").mkdir();
+       
+        
 
-        try(BufferedWriter bw = new BufferedWriter(new FileWriter(caminhoOut,true))) {
+        try(BufferedWriter bw = new BufferedWriter(new FileWriter(diretoriFinal +"summary.csv" ,true))) {
             for (String dado : dadosFinais) {
                 bw.write(dado);
                 bw.newLine();;
@@ -83,9 +85,7 @@ public class Exercicio_1_Arquivos {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     
-
         input.close();        
     }
 }
